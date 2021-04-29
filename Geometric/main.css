@@ -1,0 +1,180 @@
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	alignt-items: center;
+	background-color: gray;
+}
+
+.frame {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #000000;
+  color: blue;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.square {
+	width: 10rem;
+	height: 10rem;
+	border: 1px solid black;
+	position: absolute;
+	
+	animation-name: a0;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#s0 {
+	animation-name: a0;
+	border-color: FireBrick;
+}
+
+@keyframes a0 {
+	50% {
+		transform: rotate(180deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s1 {
+	border-color: #00008B;
+	animation-name: a1;
+}
+
+@keyframes a1 {
+	50% {
+		transform: rotate(170deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s2 {
+	border-color: Lime;
+	animation-name: a2;
+}
+
+@keyframes a2 {
+	50% {
+		transform: rotate(160deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s3 {
+	border-color: #EE82EE;
+	animation-name: a3;
+}
+
+@keyframes a3 {
+	50% {
+		transform: rotate(150deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s4 {
+	border-color: #800080;
+	animation-name: a4;
+}
+
+@keyframes a4 {
+	50% {
+		transform: rotate(140deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s5 {
+	border-color: #663399;
+	animation-name: a5;
+}
+
+@keyframes a5 {
+	50% {
+		transform: rotate(130deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s6 {
+	border-color: #AFEEEE;
+	animation-name: a6;
+}
+
+@keyframes a6  {
+	50% {
+		transform: rotate(120deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s7 {
+	border-color: #FFA500;
+	animation-name: a7;
+}
+
+@keyframes a7  {
+	50% {
+		transform: rotate(110deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s8 {
+	border-color: #000080;
+	animation-name: a8;
+}
+
+@keyframes a8  {
+	50% {
+		transform: rotate(100deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s9 {
+	border-color: #800000;
+	animation-name: a9;
+}
+
+@keyframes a9  {
+	50% {
+		transform: rotate(90deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
+
+#s10 {
+	border-color: #4B0082;
+	animation-name: a10;
+}
+
+@keyframes a10  {
+	50% {
+		transform: rotate(80deg);
+		height: 2.5rem;
+		border-radius: 50%;		
+	}
+}
